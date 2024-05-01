@@ -2,33 +2,33 @@
   <div class="summary-widget-container">
     <div class="row">
       <div class="col-md-3">
-        <div class="card" style="background-color: #ff9800;">
+        <div class="card" style="background-color: #ff9800; color: #fff;">
           <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-store"></i> Total Toko</h5>
+            <h5 class="card-title"><i class="fas fa-store" style="color: #fff;"></i> Total Toko</h5>
             <p class="card-text">{{ totalStores }}</p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card" style="background-color: #2196f3;">
+        <div class="card" style="background-color: #2196f3; color: #fff;">
           <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-box"></i> Total Barang</h5>
+            <h5 class="card-title"><i class="fas fa-box" style="color: #fff;"></i> Total Barang</h5>
             <p class="card-text">{{ totalProducts }}</p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card" style="background-color: #4caf50;">
+        <div class="card" style="background-color: #4caf50; color: #fff;">
           <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-users"></i> Total User</h5>
+            <h5 class="card-title"><i class="fas fa-users" style="color: #fff;"></i> Total User</h5>
             <p class="card-text">{{ totalUsers }}</p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card" style="background-color: #f44336;">
+        <div class="card" style="background-color: #f44336; color: #fff;">
           <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-user-check"></i> Pengguna Aktif</h5>
+            <h5 class="card-title"><i class="fas fa-user-check" style="color: #fff;"></i> Pengguna Aktif</h5>
             <p class="card-text">{{ totalActive }}</p>
           </div>
         </div>
